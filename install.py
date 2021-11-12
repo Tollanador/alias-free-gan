@@ -88,7 +88,8 @@ if __name__ == '__main__':
         install(non_colab)
 
     if not ('COLAB_GPU' in os.environ or 'COLAB_TPU_ADDR' in os.environ or 'CI_RUNNING' in os.environ):
-        install(non_ci_and_colab)
+        print("Skipping Colab shenanigans, run Kaggle shenanigans after installation .. or maybe before ? \_O_/")
+        #install(non_ci_and_colab)
 
     if 'COLAB_TPU_ADDR' in os.environ and 'CI_RUNNING' not in os.environ:
         install(colab_tpu)
