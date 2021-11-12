@@ -1,5 +1,7 @@
 # Changes to repo:
- - Adapting for use on Kaggle - cause I'm cheap :/ 
+ - Adapting for use on Kaggle - cause I'm cheap :/
+ - Well that was surprisngly simple, another penny saved!
+
 
 # Alias-Free GAN
 
