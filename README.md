@@ -1,3 +1,6 @@
+# Attempting to get to work using Kaggle
+Attempting to anyway :/
+
 # Alias-Free GAN
 
 An unofficial version of Alias-Free Generative Adversarial Networks (https://arxiv.org/abs/2106.12423). This repository was heavily based on [Kim Seonghyeon's (rosinality) implementation](https://github.com/rosinality/alias-free-gan-pytorch). The goal of this version is to be maintainable, easy to use, and expand the features of existing implementations. This is built using pytorch and pytorch lightning (a framework that abstracts away much of the hardware specific code).
